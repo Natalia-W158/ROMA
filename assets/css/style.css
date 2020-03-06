@@ -23,6 +23,19 @@ header {
     font-weight: 500;
 }
 
+.action img{
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    right: 5.5em;
+    top: 0;
+}
+
+.action{
+    position: absolute;
+    right: 7em;
+}
+
 main{
     background-image: url(../img/cleo-topper.jpg);
     background-attachment: fixed;
@@ -55,14 +68,22 @@ h1 p{
     margin: 1em;
 }
 
+.scroll img{
+    
+}
+
 .parallax {
     background-position: absolute;
+    top: auto;
     width: 100vw;
     background-size: cover;
 }
 
 .parallax img {
     width: 100vw;
+    height: 100vh;
+    position: relative;
+    bottom: auto;
 }
 
 .intro{
@@ -185,4 +206,46 @@ h1 p{
     line-height: 1.5em;
     padding-top: 4em;
 
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: Santio;
+    font-weight: 500;
+    height: 100vh;
+
+}
+.last p{
+    margin: 0em;
+    font-size: 55px;
+    position: relative;
+    left: 3em;
+    top: 2em;
+    bottom: 2em;
+}
+
+
+#button{
+    border: 1px solid white;
+    font-size: 200%;
+    padding: .3em;
+    margin: 2em;
+    width: 7%;
+    border-radius: 10px;
+    padding-bottom: .1em;
+}
+
+#button:hover {
+    background-color: yellow;
+
+}
+
+#link {
+    font-size: 12pt;
+    position: relative;
+    left: 38%;
+    top: 25em;
+    bottom: 0em;
+    
 }
