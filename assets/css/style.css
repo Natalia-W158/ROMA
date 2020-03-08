@@ -10,6 +10,7 @@
 body{
     margin: 0;
     padding: 0;
+    width: 100vw;
 }
 
 header {
@@ -34,6 +35,7 @@ header {
 .action{
     position: absolute;
     right: 7em;
+    color: white;
 }
 
 main{
@@ -71,12 +73,15 @@ h1 p{
 #scroll img{
     width: 40px;
     height: 40px;
+    position: absolute;
+    top: 0.09em;
+    left: 8em;;
 
 }
 
 .parallax {
-    background-position: absolute;
-    top: auto;
+    background-position: relative;
+    bottom: 0;
     width: 100vw;
     background-size: cover;
 }
@@ -84,8 +89,6 @@ h1 p{
 .parallax img {
     width: 100vw;
     height: 100vh;
-    position: relative;
-    bottom: auto;
 }
 
 .intro{
@@ -215,7 +218,7 @@ footer{
     color: white;
     font-family: Santio;
     font-weight: 500;
-    height: 100vh;
+    height: 80vh;
 
 }
 .last p{
@@ -247,7 +250,7 @@ footer{
     font-size: 12pt;
     position: relative;
     left: 38%;
-    top: 25em;
     bottom: 0em;
+    top: 20em;
     
 }
