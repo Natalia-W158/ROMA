@@ -7,10 +7,11 @@
 
 }
 
-body{
+html, body{
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
+    height: 100%;
 }
 
 header {
@@ -219,7 +220,7 @@ footer{
     color: white;
     font-family: Santio;
     font-weight: 500;
-    height: 80vh;
+    height: 60vh;
 
 }
 .last p{
@@ -250,8 +251,10 @@ footer{
 #link {
     font-size: 12pt;
     position: relative;
-    left: 38%;
-    bottom: 0em;
-    top: 20em;
+    left: 35%;
     
+}
+
+b {
+    background-color: midnightblue;
 }
